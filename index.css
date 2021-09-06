@@ -1,6 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 
+body,html{
+    height: 100%;
+    width: 100%;  
+}
+body{
+    background-color: black;
+    color: white;
+    background-image: url(./img/rocket.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0%;
+    font-family:'Roboto Slab', serif;
+}
 
-.btn {
+#btn {
     background: #33678a;
     background-image: -webkit-linear-gradient(top, #33678a, #abc7d9);
     background-image: -moz-linear-gradient(top, #33678a, #abc7d9);
@@ -22,7 +36,7 @@
     text-decoration: none;
 }
 
-.btn:hover {
+#btn:hover {
     background: #f0f0f0;
     background-image: -webkit-linear-gradient(top, #f0f0f0, #276a96);
     background-image: -moz-linear-gradient(top, #f0f0f0, #276a96);
@@ -31,4 +45,3 @@
     background-image: linear-gradient(to bottom, #f0f0f0, #276a96);
     text-decoration: none;
 }
-
