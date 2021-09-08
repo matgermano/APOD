@@ -6,13 +6,33 @@ body,html{
 }
 body{
     background-color: black;
-    color: white;
+    color: cornsilk;
     background-image: url(./img/rocket.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin:0%;
     font-family:'Roboto Slab', serif;
+    text-align: center;
 }
+
+.fieldset{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: space-around;
+    background-image: url("https://64.media.tumblr.com/a28c86e92d2aa2915281cd41a1bd64e3/tumblr_o0ll94A31e1s7z2cyo1_500.gifv");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 1px 2px 18px 1px mediumpurple;
+    border-style:double;
+    width: 15%;
+    padding: 1%;
+}
+
+#corpo{
+    background: linear-gradient(rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.767))
+}
+
 
 #btn {
     background: #33678a;
@@ -44,4 +64,23 @@ body{
     background-image: -o-linear-gradient(top, #f0f0f0, #276a96);
     background-image: linear-gradient(to bottom, #f0f0f0, #276a96);
     text-decoration: none;
+}
+
+footer {
+    background-color: rgba(186, 85, 211, 0.561);
+    position: absolute;
+    bottom: 0%;
+    text-align: center;
+    color:black;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: black;
+    width: 100%;
+}
+
+footer:hover {
+    color: cornsilk;
+    transition: 0.6s;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: cornsilk;
+
 }
