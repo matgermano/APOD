@@ -57,7 +57,9 @@ body{
     border: solid #1f628d 2px;
     text-decoration: none;
 }
-
+a{
+    color: inherit;
+}
 #btn:hover {
     background: #f0f0f0;
     background-image: -webkit-linear-gradient(top, #f0f0f0, #276a96);
