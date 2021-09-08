@@ -14,17 +14,19 @@ body{
     font-family:'Roboto Slab', serif;
     text-align: center;
 }
-
+.align{
+    display: flex;
+    justify-content: center;
+}
 .fieldset{
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-content: space-around;
+    justify-content: space-between;
     background-image: url("https://64.media.tumblr.com/a28c86e92d2aa2915281cd41a1bd64e3/tumblr_o0ll94A31e1s7z2cyo1_500.gifv");
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 1px 2px 18px 1px mediumpurple;
     border-style:double;
+    border-color: rgba(147, 112, 216, 0.698);
     width: 15%;
     padding: 1%;
 }
@@ -84,3 +86,4 @@ footer:hover {
     -webkit-text-stroke-color: cornsilk;
 
 }
+
