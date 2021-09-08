@@ -87,3 +87,9 @@ footer:hover {
 
 }
 
+@media (max-width: 700px) {
+    .fieldset{
+        padding: 5%;
+        width: 55%;
+    }
+}
